@@ -1,0 +1,36 @@
+section{
+    overflow-y: scroll;
+}
+
+section::-webkit-scrollbar {
+    display: none;
+}
+
+section:nth-child(1){
+    display: grid;
+    grid-template-rows: 0.1fr 1fr ;
+    background-color: aqua;
+}
+
+.imagenes_bocetos_baja_idelidad{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr ;
+}
+
+img{
+    width: 90%;
+}
+
+.div_bodeto_alta_fidelidad{
+    margin: 5% auto;
+}
+
+h1{
+    margin: 2% auto;
+    background-color: rgb(212, 212, 212);
+}
+
+div p{
+    margin-top: 2%;
+}
